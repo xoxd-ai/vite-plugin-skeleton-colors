@@ -1,6 +1,6 @@
 {
   "name": "@tummycrypt/vite-plugin-skeleton-colors",
-  "version": "0.2.2",
+  "version": "0.2.4",
   "description": "Vite plugin for Skeleton v4 color pairing utilities - generates CSS utilities on-demand",
   "type": "module",
   "main": "./dist/index.js",

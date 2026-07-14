@@ -1,6 +1,6 @@
 module(
     name = "tummycrypt_vite_plugin_skeleton_colors",
-    version = "0.2.2",
+    version = "0.2.4",
     compatibility_level = 1,
 )
 
