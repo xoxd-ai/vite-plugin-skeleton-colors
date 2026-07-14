@@ -83,7 +83,7 @@ npm_package(
         ":vite_plugin_skeleton_colors",
     ],
     package = "@tummycrypt/vite-plugin-skeleton-colors",
-    version = "0.2.2",
+    version = "0.2.4",
     visibility = ["//visibility:public"],
 )
 
