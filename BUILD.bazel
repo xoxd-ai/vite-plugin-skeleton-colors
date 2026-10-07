@@ -2,7 +2,7 @@
 # Evaluated for merge with @tummycrypt/vite-plugin-a11y (2026-02-09).
 # Decision: KEEP SEPARATE.
 #   - Zero shared utility functions between the two plugins.
-#   - vite-plugin-skeleton-colors: CSS utility generation for Skeleton v4 color pairings
+#   - vite-plugin-skeleton-colors: CSS utility generation for Skeleton color pairings (Skeleton 5.0.1)
 #     using culori (OKLCH color space). Operates via Vite resolveId()/load() virtual modules.
 #   - vite-plugin-a11y: WCAG validation (sRGB contrast, ARIA, keyboard nav) using
 #     magic-string + svelte/compiler. Operates via Vite transform() hook on .svelte files.
