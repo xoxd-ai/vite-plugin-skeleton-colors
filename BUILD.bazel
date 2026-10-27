@@ -14,8 +14,9 @@
 BUILD.bazel for @tummycrypt/vite-plugin-skeleton-colors.
 
 Dual-mode build: works with both pnpm (standalone) and Bazel (CI/production).
-  Standalone: cd packages/vite-plugin-skeleton-colors && pnpm build
-  Monorepo:   bazel build //packages/vite-plugin-skeleton-colors/...
+  Standalone: pnpm build
+  Bazel:      CI builds //:pkg //:test (ci-templates js-bazel-package.yml).
+              A local `bazel build //:pkg` is local, non-qualifying.
 """
 
 load("@aspect_rules_js//npm:defs.bzl", "npm_package")
